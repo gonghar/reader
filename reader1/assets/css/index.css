@@ -1,0 +1,86 @@
+.main-top{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95vh;
+}
+
+.top-text-right{
+    text-align: right;
+    font-size: 18px;
+}
+.top-text-title{
+    font-size: 75px;
+    font-weight: bolder;
+}
+.top-text-title:hover{
+    font-size: 80px;
+}
+.top-text-bottom{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.books, .books>div{
+    height: 100vh;
+}
+.books>div{
+    width: 25%;
+}
+.books{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.book1, .book1>a{
+    background-color: #e3e7f3;
+    color: #465781;
+    text-decoration:none;
+}
+.book2, .book2>a{
+    background-color: #c1c4ca;
+    color: #273659;
+    text-decoration:none;
+}
+.book3, .book3>a{
+    background-color: #465781;
+    color: #e3e7f3;
+    text-decoration:none;
+}
+.book4, .book4>a{
+    background-color: #273659;
+    color: #c1c4ca;
+    text-decoration:none;
+}
+.book-title{
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.book-content{
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: center;
+}
+.book3 .book-content, .book4 .book-content{
+    text-align: center;
+}
+
+.books>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.books>div:hover{
+    width: 40%;
+}
